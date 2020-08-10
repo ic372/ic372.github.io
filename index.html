@@ -22,6 +22,9 @@
               <li><a href="#Experiences">Experiences</a></li>
               <li><a href="#Photography">Photography</a></li>
               <li><a href="#Contact">Contact</a></li>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+                >&#9776;</a
+              >
             </ul>
           </div>
         </div>
@@ -153,8 +156,8 @@
                   <div class="container">
                     <h4><b>The Racing Auditory Display (RAD)</b></h4>
                     <i
-                      >Columbia Computer Vision Lab • Researcher • Sep 2019 -
-                      May 2020</i
+                      >Columbia Computer-Enabled Abilities Lab • Researcher •
+                      Sep 2019 - May 2020</i
                     >
                     <p>
                       Developed the RAD, an audio-based blind-accessible
@@ -256,9 +259,14 @@
                     <i>Jun 2020 - Aug 2020</i>
                     <p>
                       Applied data literacy skills to analyze stock data using
-                      Excel and Python. Developing machine learning models using
-                      JupyterLab and Python to analyze financial data. Served as
-                      Cohort Rep for ESG Challenge.
+                      Excel and Python. Developed machine learning and deep
+                      learning time series forecasting models in Python and
+                      Keras for daily ATM volume estimation, obtaining less than
+                      10% mean absolute percent error. Continuous optimization
+                      of ARIMA, Random Forest, and Long Short-Term Memory neural
+                      network models to handle expansive input variables,
+                      observations, and calculations at scale. Served as Cohort
+                      Rep for ESG Challenge.
                     </p>
                   </div>
                 </div>
@@ -274,7 +282,7 @@
                     <h4><b>Mathematics Instructor</b></h4>
                     <i>Mar 2019 - Aug 2019</i>
                     <p>
-                      Taught 50+ students for Math Olympiad and AMC8/AMC10 math
+                      Taught 50 students for Math Olympiad and AMC8/AMC10 math
                       competitions. Graded assignments and tests. Held office
                       hours to explain/answer questions.
                     </p>
@@ -438,5 +446,16 @@
         ><img alt="Go back up" src="assets/icons8-chevron-up-30.png"
       /></a>
     </button>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>

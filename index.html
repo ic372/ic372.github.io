@@ -3,6 +3,13 @@
   <head>
     <title>Ivy Cao Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon/" />
   </head>
@@ -18,8 +25,8 @@
             <ul>
               <li><a href="" class="active">Home</a></li>
               <li><a href="#About">About</a></li>
-              <li><a href="#Projects">Projects</a></li>
               <li><a href="#Experiences">Experiences</a></li>
+              <li><a href="#Projects">Projects</a></li>
               <li><a href="#Photography">Photography</a></li>
               <li><a href="#Contact">Contact</a></li>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()"
@@ -79,6 +86,78 @@
     </section>
     <!--End About-->
 
+    <!--Start Experiences-->
+    <a name="Experiences"></a>
+    <section class="experiences">
+      <div class="container">
+        <div class="full-screen">
+          <h2>Experiences</h2>
+          <div class="container mt-5 mb-5">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <ul class="timeline">
+                  <li>
+                    <h3>Global Technology Summer Analyst</h3>
+                    <h4>Jun 2020 - Aug 2020</h4>
+                    <p>
+                      Developed machine learning and deep learning time series
+                      forecasting models in <b>Python</b> and <b>Keras</b> for
+                      daily ATM volume estimation, obtaining 7.75% mean absolute
+                      percentage error. Selected and analyzed three stocks based
+                      on returns, volatility, correlation with Excel/Python in
+                      cross-business team. Spearheaded team of 7 as Cohort
+                      Representative in ESG challenge.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>Engineering Associate</h3>
+                    <h4>Feb 2020 - Present</h4>
+                    <p>
+                      Used <b>React.js</b> and <b>HTML/CSS</b> to create the
+                      Reviews page of theShaft, an interactive on-campus housing
+                      guide for Columbia University students and community.
+                      Check it out at
+                      <a href="https://theshaft.info" style="color: white;"
+                        >theshaft.info</a
+                      >!
+                    </p>
+                  </li>
+                  <li>
+                    <h3>Undergraduate Researcher</h3>
+                    <h4>Sept 2019 - May 2020</h4>
+                    <p>
+                      [Columbia Computer-Enabled Abilities Lab] Developed the
+                      RAD, an audio-based blind-accessible interface for racing
+                      games. Used <b>Unity</b> and wrote <b>C#</b> scripts for
+                      in-game onboarding sequence, racetracks, and sonification
+                      strategies. Applied <b>UI/UX design</b> concepts and
+                      enhanced accessibility with Unity Accessibility Plugin. To
+                      learn more about the RAD, check out
+                      <a
+                        href="https://dl.acm.org/doi/10.1145/3173574.3174090"
+                        style="color: white;"
+                        >this research paper</a
+                      >!
+                    </p>
+                  </li>
+                  <li>
+                    <h3>Mathematics Instructor</h3>
+                    <h4>Mar 2019 - Aug 2019</h4>
+                    <p>
+                      Taught 50+ students for Math Olympiad and AMC8/AMC10 math
+                      competitions. Graded assignments and tests. Held office
+                      hours to explain/answer questions.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Experiences-->
+
     <!--Start Projects-->
     <a name="Projects"></a>
     <section class="projects">
@@ -90,8 +169,30 @@
               <div class="column">
                 <div class="project-card">
                   <img
+                    src="assets/portfolio/study-buddies.png"
+                    alt="Study Buddies app"
+                    class="proj-img"
+                  />
+                  <div class="container">
+                    <h4><b>Study Buddies</b></h4>
+                    <i>Aug 2020 - Aug 2020</i>
+                    <p>
+                      Used <b>React</b>, <b>HTML</b>, <b>CSS</b>, and
+                      <b>Firebase</b> to create Study Buddies--a web app that
+                      makes creating study groups easier, especially in a
+                      virtual environment! Features authentication via Firebase,
+                      ability to search for existing study groups and join
+                      discussion forums with other users, and personal notes
+                      page.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="project-card">
+                  <img
                     src="assets/portfolio/WellnessBotScreenshot2.PNG"
-                    alt="personal website"
+                    alt="Wellness Bot"
                     class="proj-img"
                   />
                   <div class="container">
@@ -121,57 +222,6 @@
                       website you're on right now! Showcases my past projects,
                       experiences, and photography hobby, as well as ways to
                       contact me.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="project-card">
-                  <img
-                    src="assets/portfolio/theShaft.PNG"
-                    alt="the Shaft"
-                    class="proj-img"
-                  />
-                  <div class="container">
-                    <h4><b>theShaft</b></h4>
-                    <i
-                      >Spectator Publishing Company • Engineering Associate •
-                      Feb 2020 - Present</i
-                    >
-                    <p>
-                      Used <b>React.js</b> and <b>HTML/CSS</b> to create the
-                      Reviews page of theShaft, an interactive on-campus housing
-                      guide for Columbia University students and community.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="project-card">
-                  <img
-                    src="assets/portfolio/ColumbiaLogo.png"
-                    alt="Columbia University"
-                    class="proj-img"
-                  />
-                  <div class="container">
-                    <h4><b>The Racing Auditory Display (RAD)</b></h4>
-                    <i
-                      >Columbia Computer-Enabled Abilities Lab • Researcher •
-                      Sep 2019 - May 2020</i
-                    >
-                    <p>
-                      Developed the RAD, an audio-based blind-accessible
-                      interface for racing games. Used <b>Unity</b> and wrote
-                      <b>C#</b> scripts for in-game onboarding sequence,
-                      racetracks, and sonification strategies. Applied
-                      <b>UI/UX design</b> concepts and enhanced accessibility
-                      with Unity Accessibility Plugin. To learn more about the
-                      RAD, check out
-                      <a
-                        href="https://dl.acm.org/doi/10.1145/3173574.3174090"
-                        style="color: black;"
-                        >this research paper!</a
-                      >
                     </p>
                   </div>
                 </div>
@@ -213,107 +263,12 @@
                   </div>
                 </div>
               </div>
-              <div class="column">
-                <div class="project-card">
-                  <img
-                    src="assets/portfolio/GWCWebsite.jpg"
-                    alt="Girls Who Code website"
-                    class="proj-img"
-                  />
-                  <div class="container">
-                    <h4><b>Girls Who Code website</b></h4>
-                    <i>May 2018 - Jun 2018</i>
-                    <p>
-                      As president of my high school's Girls Who Code club, I
-                      developed a website using <b>HTML</b>, <b>CSS</b>, and
-                      <b>JS</b> to serve as a centralized platform for all club
-                      resources.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!--End Projects-->
-
-    <!--Start Experiences-->
-    <a name="Experiences"></a>
-    <section class="experiences">
-      <div class="container">
-        <div class="full-screen">
-          <h2>Experiences</h2>
-          <div class="experiences-content">
-            <div class="row">
-              <div class="column">
-                <div class="experience-card">
-                  <img
-                    src="assets/portfolio/bank-of-america-squarelogo-1569440203452.png"
-                    alt="Bank of America"
-                    class="exp-img"
-                  />
-                  <div class="container">
-                    <h4><b>Global Technology Summer Analyst</b></h4>
-                    <i>Jun 2020 - Aug 2020</i>
-                    <p>
-                      Applied data literacy skills to analyze stock data using
-                      Excel and Python. Developed machine learning and deep
-                      learning time series forecasting models in Python and
-                      Keras for daily ATM volume estimation, obtaining less than
-                      10% mean absolute percent error. Continuous optimization
-                      of ARIMA, Random Forest, and Long Short-Term Memory neural
-                      network models to handle expansive input variables,
-                      observations, and calculations at scale. Served as Cohort
-                      Rep for ESG Challenge.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="experience-card">
-                  <img
-                    src="assets/portfolio/ardent-academy-for-gifted-youth-squarelogo-1579639137493.png"
-                    alt="Ardent Academy"
-                    class="exp-img"
-                  />
-                  <div class="container">
-                    <h4><b>Mathematics Instructor</b></h4>
-                    <i>Mar 2019 - Aug 2019</i>
-                    <p>
-                      Taught 50 students for Math Olympiad and AMC8/AMC10 math
-                      competitions. Graded assignments and tests. Held office
-                      hours to explain/answer questions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="experience-card">
-                  <img
-                    src="assets/portfolio/jane-street-squarelogo-1537540489979.png"
-                    alt="Jane Street"
-                    class="exp-img"
-                  />
-                  <div class="container">
-                    <h4><b>Jane Street Women in STEM</b></h4>
-                    <i>Jul 2019</i>
-                    <p>
-                      Selected as 1 of ~70 attendees for an all-expense paid,
-                      three-day program in NYC to attend math, finance, and
-                      software development seminars taught by Jane Street
-                      employees.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--End Experiences-->
 
     <!--Start Photography-->
     <a name="Photography"></a>
